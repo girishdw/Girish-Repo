@@ -1,3 +1,6 @@
+
+dont do all these
+=pod
 #!/usr/bin/perl -w
 
 use warnings;
