@@ -1,0 +1,78 @@
+function val2() {
+         
+            if (name == "") {
+                alert("enter name");
+                return false;
+                var option = 1;
+            }
+       
+            if (email == "") {
+                alert("Enter Last Name");
+                return false;
+                var option = 1;
+            }
+
+            if (Message == "") {
+                alert("Enter Last Name");
+                return false;
+                var option = 1;
+            }
+	if (opt == "1") {
+                alert(txt);
+                return false;
+            }
+		
+}
+
+
+function validate1() {
+var name=document.getElementById("txtname").value;
+var email=document.getElementById("txtemail").value;
+var msg=document.getElementById("txtmsg").value;
+alert("Name: "+name+"\n"+"E-mail Id: "+email + "\n"+ "Message: "+msg);
+   var nam="";
+   if (nam.test(name)) { 
+	alert("enter name");
+   }
+   else {
+      return true;
+   }
+   var emailid= new RegExp (/^[A-Za-z0-9_.]{2,100}+@[A-Za-z0-9.-]{2,100}+\.[A-Za-z]{2,100}$/)
+   if (emailid.test(email)) {
+      return true;
+   }
+   else {
+      alert("enter valid email id");
+   }
+	if (nam.test(msg)) { 
+	alert("enter msg");
+   }
+   else {
+      return true;
+   }
+	
+}
+
+
+ function valid_email(email) {
+
+            var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            
+            if (reg.test(email) == false) 
+            {
+                alert('Invalid Email Address');
+                return (false);
+            }
+ }
+
+
+function validate(){
+
+var name=document.getElementById("txtname").value;
+var email=document.getElementById("txtemail").value;
+var msg=document.getElementById("txtmsg").value;
+
+alert("Name: "+name+"\n"+"E-mail Id: "+email + "\n"+ "Message: "+msg);
+
+}
+
